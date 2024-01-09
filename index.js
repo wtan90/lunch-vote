@@ -3,8 +3,8 @@ import { getDatabase, ref, push, onValue, update, set } from "https://www.gstati
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: process.env.LUNCH_VOTE_DB
-};
+  databaseURL: "https://first-database-3780f-default-rtdb.firebaseio.com/",
+}
 
 // Initialize Firebase app
 const app = initializeApp(firebaseConfig);
